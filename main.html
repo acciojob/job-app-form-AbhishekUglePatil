@@ -20,16 +20,17 @@
 			<input type="email" id="email" required>
 		</div>
 		<div class="container">
-			<label for="gender" required>Gender*</label>
-			<input type="radio" name="gender" id="gender">Male
-			<input type="radio" name="gender" id="gender">Female
-			<input type="radio" name="gender" id="gender">Other
+			<label for="gender" >Gender*</label>
+			<input type="radio" name="gender"  value="male" required>Male
+			<input type="radio" name="gender"  value="female" required>Female
+			<input type="radio" name="gender"  value="other" required>Other
 		</div>
 		<div class="container">
 			<label for="laptop">Laptop Brands</label>
-			<input type="checkbox" id="laptop">Apple
-			<input type="checkbox" id="laptop">Asus
-			<input type="checkbox" id="laptop">HP
+			<select id="laptop">
+				<option>Apple</option>
+				<option>Asus</option>
+				<option>HP</option>
 		</div>
 		<div class="container">
 			<label for="age">Age*</label>
